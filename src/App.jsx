@@ -1,9 +1,8 @@
 import Menu from "./menu/Index"
 
 function App() {
-
   return (
-    <main>
+    <main className="flex items-center">
       <Menu>
         <Menu.Button>Menu</Menu.Button>
         <Menu.Dropdown>
